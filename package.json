@@ -1,16 +1,13 @@
 {
-  "name": "learnflowio",
+  "name": "hekv-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server component of HEKV (Hibernate Express Knex Vue) starter project.",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
     "build": "nexe -t 'linux-x64-12.9.1'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "nexe": "^3.3.7",
     "nodemon": "^2.0.6"
@@ -25,5 +22,24 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.21.13",
     "pg": "^8.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hekv/server.git"
+  },
+  "keywords": [
+    "expressjs",
+    "knex",
+    "js",
+    "node",
+    "nodejs",
+    "hekv",
+    "javascript"
+  ],
+  "author": "Mehdi Amenein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hekv/server/issues"
+  },
+  "homepage": "https://github.com/hekv/server#readme"
 }
