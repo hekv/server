@@ -1,0 +1,11 @@
+FROM node
+
+WORKDIR /knex
+
+COPY ./package.json /knex
+
+RUN npm install
+
+COPY . .
+
+CMD [ "npm", "run", "dev" ]
